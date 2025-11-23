@@ -1,0 +1,22 @@
+[
+  {
+    "model": "texts.text",
+    "pk": 1,
+    "fields": {
+      "title": "Тестовый текст 1",
+      "body": "Это пример лёгкого текста.",
+      "difficulty": "easy",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "texts.text",
+    "pk": 2,
+    "fields": {
+      "title": "Тестовый текст 2",
+      "body": "Это пример среднего текста.",
+      "difficulty": "medium",
+      "created_at": "2025-01-01T00:01:00Z"
+    }
+  }
+]
