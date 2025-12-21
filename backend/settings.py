@@ -43,15 +43,16 @@ INSTALLED_APPS = [
 ]
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'datbase name',
-        'USER': 'User',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "lingua_ai",
+        "USER": "lingua_user",
+        "PASSWORD": "Eb2052004",
+        "HOST": "127.0.0.1",
+        "PORT": "5432",
     }
 }
+
 
 TIME_ZONE = 'UTC'
 
@@ -89,16 +90,16 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'lingua_ai',
+#         'USER': 'postgres',
+#         'PASSWORD': '123456',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 # Password validation

@@ -1,0 +1,122 @@
+[
+{
+  "model": "texts.text",
+  "pk": 1,
+  "fields": {
+    "title": "The Lost Keys",
+    "body": "Last Tuesday morning started like any other for Emma. She had a very important English test at school at nine o'clock. She woke up, got dressed in her favourite blue dress, and went to the kitchen to eat breakfast. Her mother made her scrambled eggs and toast. Emma was a little nervous about the test, so she drank her orange juice quickly. Then it was time to leave. She went to the hall table to get her school bag and house keys. But the keys were not there!\n\n\"Where are my keys?\" she said. She looked in her bag. No keys. She looked under the table. No keys. She started to feel very worried. \"Mum, I can't find my keys!\" she shouted. Her mum helped her look. They looked in the living room, in the kitchen, and even in the bathroom. No keys. Emma was nearly crying. She was going to be late for her test.",
+    "difficulty": "easy",
+    "created_at": "2025-12-21T16:39:34.811Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 2,
+  "fields": {
+    "title": "Planning a Birthday Party",
+    "body": "My best friend's name is Chloe, and her birthday is next month. She will be twelve years old. We want to organise a surprise party for her. It is a big secret! Yesterday, my friend Sam and I met after school to make plans. First, we need to choose a place. We think her house is the best place because her parents can help us. We talked to her mum, and she said yes! She is very nice.\n\nNow we need to think about the guests. We will invite all our classmates from school, and also Chloe's cousin from the city. That is about fifteen people. Next, we must decide on food and drinks. We want to make a big birthday cake with chocolate and strawberries – that is Chloe's favourite. We will also have sandwiches, pizza, fruit, and lots of lemonade and juice. For decorations, we want balloons and streamers in her favourite colours, which are purple and green.",
+    "difficulty": "easy",
+    "created_at": "2025-12-21T16:39:34.815Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 3,
+  "fields": {
+    "title": "My Weekend with Grandparents",
+    "body": "Every summer, I spend one month with my grandparents in their small village. It is very different from the city where I live. Their house is old and has a big garden with many flowers and vegetables. My grandpa grows tomatoes, carrots, and potatoes. He lets me help him water the plants in the morning when it is cool. It is hard work, but I like seeing the vegetables grow.\n\nMy grandma is an excellent cook. She teaches me how to make bread and jam. The kitchen always smells amazing. In the afternoons, if the weather is good, we often go for walks in the forest behind their house. Grandpa knows a lot about birds and trees. He shows me how to recognise different birds by their songs. Sometimes we see rabbits or squirrels. Once we even saw a deer! It was beautiful and very quiet.",
+    "difficulty": "easy",
+    "created_at": "2025-12-21T16:39:34.816Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 4,
+  "fields": {
+    "title": "The School Project",
+    "body": "Our teacher, Mr. Clark, gave us a big project last week. We must work in pairs and make a poster about an animal. We have two weeks to finish it. My partner is David. We chose to learn about penguins because they are interesting and funny birds. First, we went to the school library to find books. We found three good books with pictures and information. We learned that penguins are birds, but they cannot fly. They live in cold places, mostly in Antarctica. They swim very well and eat fish.\n\nThen, we searched for information on the internet in the computer room. We watched a short video about penguin families. The father penguin often looks after the egg! We printed some great photos. Now we had all the information. On Saturday, David came to my house to make the poster. We used a big piece of blue card. We drew ice and water at the bottom. Then we glued the pictures and wrote interesting facts in big, clear letters. My mum bought us some shiny paper to make the penguins' bellies look white and bright.",
+    "difficulty": "easy",
+    "created_at": "2025-12-21T16:39:34.817Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 5,
+  "fields": {
+    "title": "The Illusion of Multitasking",
+    "body": "For years, multitasking was celebrated as the ultimate skill for the efficient modern professional. However, a growing body of scientific research suggests that our brains are not truly wired to handle multiple complex tasks simultaneously. What we perceive as multitasking is often just rapid task-switching. Each time we switch from writing an email to checking a notification and back again, our brain incurs a \"switching cost\" in terms of time and cognitive resources. This constant shifting fragments our attention, increases mental fatigue, and ironically makes us less productive and more prone to errors. True focus, or \"deep work,\" on a single task without distractions allows for higher quality output and more efficient problem-solving. Embracing monotasking, therefore, isn't a step backwards but a smarter approach to managing our cognitive load in a demanding world. It’s about working with our brain’s natural design, not against it.",
+    "difficulty": "medium",
+    "created_at": "2025-12-21T16:39:34.819Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 6,
+  "fields": {
+    "title": "The Subtle Power of Body Language",
+    "body": "While we carefully craft our words, our bodies often speak a louder, more honest language. Non-verbal communication—encompassing posture, gestures, eye contact, and facial expressions—forms a crucial part of how we are perceived and how we connect with others. It can reinforce our message or entirely contradict it. For instance, claiming confidence while avoiding eye contact and crossing your arms sends a mixed signal that others will subconsciously trust more than your words. Understanding this silent language is a powerful tool. It enhances empathy, allowing us to better \"read\" a situation and respond appropriately. By becoming more aware of our own non-verbal cues, we can align our physical presence with our intentions, building greater authenticity and trust in both personal and professional interactions.",
+    "difficulty": "medium",
+    "created_at": "2025-12-21T16:39:34.820Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 7,
+  "fields": {
+    "title": "Rethinking Failure",
+    "body": "Society often conditions us to view failure as a negative endpoint, a stain on our record to be avoided at all costs. This mindset, however, can be deeply limiting, fostering fear of risk and stifling innovation. A more constructive perspective is to see failure not as the opposite of success, but as an integral part of the learning process. Every misstep provides unique, often brutal, feedback that success cannot offer. It teaches resilience, highlights flaws in our approach, and forces adaptation. Many of history's greatest breakthroughs were preceded by numerous failures. The key difference lies in the response: do we see it as a defining label (\"I am a failure\") or as a temporary event from which we can extract valuable data? Cultivating a growth mindset allows us to reframe setbacks as necessary stepping stones on the path to mastery.",
+    "difficulty": "medium",
+    "created_at": "2025-12-21T16:39:34.821Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 8,
+  "fields": {
+    "title": "The Lost Art of Boredom",
+    "body": "In our quest to fill every spare moment with stimulation—scrolling through social media, listening to podcasts, watching videos—we have virtually eradicated boredom from our lives. Yet, psychologists argue that boredom is not an enemy to be defeated, but a potentially valuable state of mind. Moments of unstructured time, free from external entertainment, allow our minds to wander, daydream, and make novel connections. This is when creativity often sparks. It is a mental space for self-reflection, where we can process emotions, generate new ideas, and simply be with our own thoughts. By constantly avoiding boredom, we may be depriving ourselves of the mental downtime necessary for insight, problem-solving, and maintaining a healthy inner life. Sometimes, the most productive thing to do is, seemingly, nothing at all.",
+    "difficulty": "medium",
+    "created_at": "2025-12-21T16:39:34.822Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 9,
+  "fields": {
+    "title": "On the Ephemeral Nature of Digital Culture",
+    "body": "The digitization of our cultural heritage presents a profound paradox. While we possess the technical capacity to store vast amounts of data indefinitely, we are simultaneously creating a cultural record of alarming fragility. Our communication, art, and personal histories are increasingly born digital, residing on corporate platforms and in proprietary formats. Unlike a centuries-old book or painting, a social media profile, a blog, or a collection of digital photographs is vulnerable to link rot, format obsolescence, and the whims of corporate policy. This creates a \"digital dark age\" risk, where future historians may find a gaping void in the early 21st-century record. The very tools that grant us immortality in the moment may be ensuring our obscurity in the long term. Preserving this era requires active, conscious curation and a shift towards open standards, challenging the notion that digital inherently means durable.",
+    "difficulty": "hard",
+    "created_at": "2025-12-21T16:39:34.824Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 10,
+  "fields": {
+    "title": "The Cognitive Toll of Decision Fatigue",
+    "body": "Modern life is a relentless parade of micro-choices, from selecting a breakfast cereal to curating our online personas. This abundance of choice, often celebrated as a hallmark of autonomy, carries a significant cognitive tax known as decision fatigue. Each decision, regardless of its perceived importance, depletes a finite reservoir of mental energy and willpower. As this resource dwindles, our cognitive capacity erodes: we become prone to impulsivity, resort to mental shortcuts, and exhibit a marked decline in the quality of our judgments. This neurological phenomenon explains why even trivial choices later in the day can feel overwhelming. To mitigate its effects, successful individuals often ritualize or outsource inconsequential decisions, preserving their cognitive bandwidth for truly consequential matters. Understanding this hidden cost is crucial for designing lifestyles and systems that foster sustained, high-level thinking.",
+    "difficulty": "hard",
+    "created_at": "2025-12-21T16:39:34.826Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 11,
+  "fields": {
+    "title": "The Anthropocene and a New Ethical Paradigm",
+    "body": "The proposed geological epoch of the Anthropocene, defined by humanity's dominant influence on Earth's systems, necessitates a radical re-evaluation of our ethical frameworks. Traditional ethics, centered on human-to-human or human-to-society obligations, are ill-equipped to address our newfound role as a planetary force. We must forge an ethics of scale and interconnection that encompasses our relationship with the biosphere, future generations, and the stability of the climate itself. This involves recognizing the moral value of non-human entities and ecosystems, not merely as resources but as co-inhabitants with intrinsic worth. It demands a shift from short-term exploitation to long-term stewardship, embedding responsibility for planetary health into the core of political, economic, and personal decision-making. The central philosophical question of this century may well be: what do we owe to a world we have the power to alter irrevocably?",
+    "difficulty": "hard",
+    "created_at": "2025-12-21T16:39:34.827Z"
+  }
+},
+{
+  "model": "texts.text",
+  "pk": 12,
+  "fields": {
+    "title": "The Nuances of Linguistic Relativity",
+    "body": "The Sapir-Whorf hypothesis, in its strong form, positing that language determines thought, has been largely discredited. However, a more nuanced understanding of linguistic relativity continues to gain empirical support. Language does not imprison thought, but it can shape and channel it by making certain conceptual distinctions more readily accessible. For instance, languages that grammatically gender inanimate objects can influence how speakers metaphorically attribute qualities to them. Similarly, languages with rich vocabularies for specific emotions or colors can train their speakers to perceive and categorize these domains with greater subtlety. This \"weak\" relativity suggests that our native language acts as a cognitive toolkit, offering habitual patterns of framing the world. While we can transcend these patterns, they form a default setting that influences perception, memory, and even decision-making in subtle, often unconscious ways, highlighting the deep interplay between culture, cognition, and communication.",
+    "difficulty": "hard",
+    "created_at": "2025-12-21T16:39:34.829Z"
+  }
+}
+]
