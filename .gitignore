@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Django
+media/
+*.log
+
+# AI models (large)
+AI/model/
+ai_model/
+
+# Documents
+*.docx
+
+# OS
+.DS_Store
+Thumbs.db

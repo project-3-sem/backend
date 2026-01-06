@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'texts',
+    'pronunciation',
 ]
 
 DATABASES = {
@@ -137,6 +139,33 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# Media (uploads & generated audio clips)
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+# Local AI configuration
+# The Vosk model directory can be provided via env var. If not set, the backend
+# will look for it at:
+#   1) <BASE_DIR>/AI/model
+#   2) <BASE_DIR>/../AI/model
+VOSK_MODEL_PATH = os.getenv('VOSK_MODEL_PATH', '')
+
+# Optional Yandex TTS settings (used to generate audio clips for mispronounced words)
+YANDEX_API_KEY = os.getenv('YANDEX_API_KEY', '')
+YANDEX_FOLDER_ID = os.getenv('YANDEX_FOLDER_ID', '')
+
+# Safety / cost controls
+PRONUNCIATION_MAX_CLIPS = int(os.getenv('PRONUNCIATION_MAX_CLIPS', '25'))
+
+# Storage / cleanup
+# If False (default), uploaded WAV files are deleted after successful processing.
+KEEP_UPLOADED_AUDIO = os.getenv('KEEP_UPLOADED_AUDIO', 'false').strip().lower() in {
+    '1', 'true', 'yes', 'y', 'on'
+}
+
+# Used by the optional cleanup management command.
+CLEANUP_DAYS = int(os.getenv('CLEANUP_DAYS', '7'))
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
